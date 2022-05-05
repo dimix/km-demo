@@ -6,9 +6,6 @@
 //  Copyright © 2022 orgName. All rights reserved.
 //
 
-import apple_common
-import ios_common
-import ios_composable
 import UIKit
 import shared
 
@@ -57,7 +54,7 @@ class JobDetailViewController: BaseViewController {
         tableView.allowsSelection = false
         tableView.rowHeight = UITableView.automaticDimension
         tableView.estimatedRowHeight = 100
-        view.addSubviewAndFit(tableView)
+        view.addSubview(tableView, constraints: LC.fit)
 
         layout = TableViewLayoutManager(tableView: tableView)
         layout?.numberOfRowsInSection = { [weak self] _ in

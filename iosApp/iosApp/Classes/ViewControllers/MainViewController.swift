@@ -6,9 +6,6 @@
 //  Copyright © 2022 orgName. All rights reserved.
 //
 
-import apple_common
-import ios_common
-import ios_composable
 import UIKit
 import shared
 
@@ -41,7 +38,7 @@ class MainViewController: BaseViewController {
         loadingIndicatorView?.hidesWhenStopped = true
 
         view.addSubviewAndCenter(loadingIndicatorView!)
-        view.addSubviewAndFit(tableView)
+        view.addSubview(tableView, constraints: LC.fit)
     }
 
     override func setLoadingViewVisible(_ visible: Bool) {
