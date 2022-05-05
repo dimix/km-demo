@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  iosApp
+
+  Created by Dimitri Giani on 02/04/22.
+  Copyright © 2022 orgName. All rights reserved.
+*/
+
+"task_completed" = "Task Completati";
+"task_status_completed" = "%@ task di %@ completati";
+"tasks_title" = "Tasks";

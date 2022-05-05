@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="task_completed">Task Completati</string>
+    <string name="task_status_completed">%1$s task di %2$s completati</string>
+    <string name="tasks_title">Tasks</string>
+</resources>
